@@ -1,0 +1,104 @@
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display : grid;
+    grid-template-columns: repeat(auto-fill , minmax(400px, 1fr));
+    gap: 20px;
+    font-family: sans-serif;
+    grid-template-rows: repeat(auto-fill , minmax(50px, 1fr));
+    padding: 10px;
+    border-radius: 15em;
+}
+.card_content{
+
+    box-shadow : 0 0 3px rgba(0, 0, 0, 0.9);
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #f3eeee;
+    width:100%;
+    display: block;
+}
+
+.card{
+    width: 100%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+.thumbnail{
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+.thumbnail:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card_image{
+    width:100%;
+    display: block;
+}
+.cards_aboutus{
+    margin: 0 auto;
+    max-width: 1000px;
+    display : grid;
+    grid-template-columns: repeat(auto-fill , minmax(255px, 1fr));
+    gap: 20px;
+    font-family: sans-serif;
+    grid-template-rows: repeat(auto-fill , minmax(400px, 1fr));
+    padding: 10px;
+}
+
+ /*.container {
+
+    height : 84%;
+    width : 84%;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 40px rgba(60,60,150,0.25);
+    display: grid;
+    place-items: center;
+     grid-template-columns: repeat(auto-fill , minmax(100px, 1fr));
+    grid-template-rows: repeat(auto-fill , minmax(150px, 1fr)); 
+ }*/
+
+ .circular-progress{
+
+    position: relative;
+    height: 10em;
+    width: 10em;
+    
+    display : grid;
+    place-items: center;
+    border-radius: 50%;
+
+ }
+ .circular-progress:before{
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: #ffffff;
+    border-radius: 50%;
+ }
+
+ .value-container{
+     position: relative;
+     font-family: "Poppins",sans-serif;
+     font-size: 15px; 
+ }
+.row{
+    border-radius: 5em;
+}
