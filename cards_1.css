@@ -37,3 +37,12 @@
 .row{
     border-radius: 5em;
 }
+/* Body css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DBF9FC;
+  }
+
+ .container{
+     padding: 30px;
+ }
